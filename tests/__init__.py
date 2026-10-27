@@ -1,1 +1,1 @@
-"""Haiox Bounty Hunter - Test Suite."""
+"""Haiox Project Scout - Test Suite."""

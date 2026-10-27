@@ -1,5 +1,5 @@
 """
-Haiox Bounty Hunter - Freelancer.com Ingestion Driver
+Haiox Project Scout - Freelancer.com Ingestion Driver
 Module: ingestion/freelancer_driver.py
 Architect: AIrash (Staff Systems Engineer) for Hatef Ghanei (haiox)
 """
@@ -11,7 +11,7 @@ from typing import List, Dict, Any, Optional
 from core.schemas import RawJobPosting, PlatformType, FeedConfig
 from .base import BaseFeedDriver
 
-logger = logging.getLogger("bounty_hunter.freelancer")
+logger = logging.getLogger("project_scout.freelancer")
 
 
 class FreelancerFeedDriver(BaseFeedDriver):

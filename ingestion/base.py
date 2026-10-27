@@ -1,5 +1,5 @@
 """
-Haiox Bounty Hunter - Base Ingestion Driver
+Haiox Project Scout - Base Ingestion Driver
 Module: ingestion/base.py
 Architect: AIrash (Staff Systems Engineer) for Hatef Ghanei (haiox)
 """
@@ -12,7 +12,7 @@ import httpx
 
 from core.schemas import RawJobPosting, PlatformType, FeedConfig
 
-logger = logging.getLogger("bounty_hunter.ingestion")
+logger = logging.getLogger("project_scout.ingestion")
 
 
 class BaseFeedDriver(abc.ABC):

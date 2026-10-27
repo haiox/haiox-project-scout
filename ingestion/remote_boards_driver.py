@@ -1,5 +1,5 @@
 """
-Haiox Bounty Hunter - Remote Boards Ingestion Driver
+Haiox Project Scout - Remote Boards Ingestion Driver
 Module: ingestion/remote_boards_driver.py
 Architect: AIrash (Staff Systems Engineer) for Hatef Ghanei (haiox)
 """
@@ -12,7 +12,7 @@ from typing import List, Dict, Any, Optional
 from core.schemas import RawJobPosting, PlatformType, FeedConfig
 from .base import BaseFeedDriver
 
-logger = logging.getLogger("bounty_hunter.remote_boards")
+logger = logging.getLogger("project_scout.remote_boards")
 
 
 class RemoteBoardsDriver(BaseFeedDriver):

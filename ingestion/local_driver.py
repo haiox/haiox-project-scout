@@ -1,5 +1,5 @@
 """
-Haiox Bounty Hunter - Local Market Ingestion Driver
+Haiox Project Scout - Local Market Ingestion Driver
 Module: ingestion/local_driver.py
 Architect: AIrash (Staff Systems Engineer) for Hatef Ghanei (haiox)
 """
@@ -11,7 +11,7 @@ from typing import List, Dict, Any, Optional
 from core.schemas import RawJobPosting, PlatformType, FeedConfig
 from .base import BaseFeedDriver
 
-logger = logging.getLogger("bounty_hunter.local")
+logger = logging.getLogger("project_scout.local")
 
 
 class LocalFeedDriver(BaseFeedDriver):

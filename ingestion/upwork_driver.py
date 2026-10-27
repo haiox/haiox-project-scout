@@ -1,5 +1,5 @@
 """
-Haiox Bounty Hunter - Upwork Ingestion Driver
+Haiox Project Scout - Upwork Ingestion Driver
 Module: ingestion/upwork_driver.py
 Architect: AIrash (Staff Systems Engineer) for Hatef Ghanei (haiox)
 """
@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 from core.schemas import RawJobPosting, PlatformType, FeedConfig
 from .base import BaseFeedDriver
 
-logger = logging.getLogger("bounty_hunter.upwork")
+logger = logging.getLogger("project_scout.upwork")
 
 
 class UpworkFeedDriver(BaseFeedDriver):
