@@ -118,4 +118,4 @@ pytest tests/ -v
 ---
 
 ## 🛡 License & Author
-Engineered by **AIrash (آیرش)** for **Hatef Ghanei (@haioxlab)**. Part of the **Haiox Autonomous Ecosystem**.
+Engineered by **AIrash** for **Hatef Ghanei (@haioxlab)**. Part of the **Haiox Autonomous Ecosystem**.
