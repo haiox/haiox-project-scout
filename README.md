@@ -1,17 +1,23 @@
-# Haiox Project Scout (دیده‌بان هوشمند پروژه‌ها) v1.2.0
+# Haiox Project Scout 🔭
 
-> **Autonomous Real-Time Contract Reconnaissance, AST Prototype Synthesis & Interactive Deal Deck for Telegram**
+> **A real-time contract radar and prototype generator that lives inside Telegram.**
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![Architecture](https://img.shields.io/badge/architecture-Microkernel%20%2F%20Dual--Engine-green.svg)]()
-[![Tests Passing](https://img.shields.io/badge/tests-38%20passed-brightgreen.svg)]()
-[![UI Status](https://img.shields.io/badge/Telegram%20UI-100%25%20English%20SaaS-purple.svg)]()
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Interactive%20UI-26A5E4.svg?style=flat&logo=telegram&logoColor=white)](https://telegram.org)
+[![Pytest](https://img.shields.io/badge/pytest-38%20passed-brightgreen.svg?style=flat&logo=pytest&logoColor=white)]()
+[![Architecture](https://img.shields.io/badge/Design-Microkernel%20%7C%20In--Memory%20Cache-8A2BE2.svg?style=flat)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](LICENSE)
 
 ---
 
-## ⚡ Overview
+## 💡 Why I Built This
 
-**Haiox Project Scout** is an autonomous reconnaissance platform engineered to bridge the gap between high-value freelance opportunities and verified software prototypes. It continuously ingests contract postings across **Freelancer.com, Upwork, RemoteOK, and custom developer feeds**, validates quality and client reputation, probes target URLs for technical ground truth, generates AST-verified executable Python prototypes, and surfaces opportunities via a high-velocity **Interactive Paged Deal Deck** inside Telegram.
+Most freelance bots just dump raw, unvetted links into a chat channel until your phone explodes with notifications. You spend hours sifting through $5 junk projects and copy-pasting generic bids that clients ignore.
+
+**Haiox Project Scout takes a completely different approach:**
+1. **Filters ruthlessly:** Scrapes Freelancer.com, Upwork, and RemoteOK, strips out scams and low-ball commodity bids, and verifies the client's actual technical needs.
+2. **Generates working code before you bid:** Using an AST-backed Python generator (`Haiox Genesis`), it spins up a tested, working proof-of-concept in seconds.
+3. **Stays out of your way:** Instead of spamming endless new messages, it uses a single **Interactive Carousel Deal Deck** in Telegram that you can flip through like cards (`Previous` / `Next` / `Dismiss`).
 
 ---
 
@@ -90,7 +96,7 @@ Comprehensive test suite verifying microkernel drivers, AST generation, quality 
 ```bash
 pytest tests/ -v
 ```
-**Result:** 38 / 38 unit and integration tests passing in 1.25s.
+**Result:** 38 / 38 unit and integration tests passing in 0.97s.
 
 ---
 
