@@ -117,5 +117,17 @@ pytest tests/ -v
 
 ---
 
+---
+
+## 🏛️ Haiox Ecosystem Synergy
+
+Haiox Project Scout serves as the high-velocity sensory radar in the **Haiox Sovereign Ecosystem**:
+1. **[Haiox Smart Miner](https://github.com/haiox/Haiox_Smart_Miner):** Bedrock zero-token web extraction & anti-bot shield (218/218 tests passing).
+2. **[Haiox Deep Research](https://github.com/haiox/Haiox_Deep_Research):** Autonomous 6-node forensic verification & due-diligence engine (14/14 tests passing).
+3. **[Haiox Genesis](https://github.com/haiox/Haiox_Genesis):** Autonomous software foundry & self-healing execution sandbox (27/27 tests passing).
+4. **[Haiox Orchestrator](https://github.com/haiox/Haiox-Orchestrator-Architecture):** Multi-model blind council & cross-debate arbitration framework.
+
+---
+
 ## 🛡 License & Author
 Engineered by **haiox** ([@haioxlab](https://x.com/haioxlab)). Part of the **Haiox Ecosystem**.
